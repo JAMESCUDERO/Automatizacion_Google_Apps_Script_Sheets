@@ -1,0 +1,23 @@
+# --- Secretos y credenciales (nunca versionar) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets.*
+*credentials*
+.clasp.json
+.clasprc.json
+
+# --- Python / sistema / editor ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*
